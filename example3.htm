@@ -1,0 +1,92 @@
+
+<html>
+<head>
+  <title>Example 3</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+<style type="text/css">
+.row {
+	margin-bottom:6px;
+}
+
+.col-xs-4 {
+   border-left:6px solid white;
+   border-right:6px solid white;
+}
+
+.col-xs-12, .col-xs-3,  .col-xs-2,.col-xs-4, .col-xs-8{
+	background-color:#f1f1f1;
+    text-align:center;
+    padding-top:3px;
+}
+.container-fluid:hover .col-xs-12 span.header:after {
+	content:'Navbar';
+}
+.container-fluid:hover .col-xs-12 span.header2:after {
+	content:'haeder2';
+}
+.container-fluid:hover .col-xs-12 span.footer:after {
+	content:'Footer';
+}
+.container-fluid:hover .col-xs-4 span:after {
+	content:'col 4';
+}
+
+</style>
+</head>
+<body>
+
+<h2>example 3</h2>
+<div class="container-fluid">
+	<div class="row">
+    <div class="col-xs-12" style="padding-top:1px;height:50px;">
+	<span class="header"></span></div>
+  </div>
+
+  
+   <div class="container-fluid">
+	<div class="row">
+      <div class="col-xs-4" style="height:50px;"><span></span></div>
+      <div class="col-xs-4" style="height:50px;"><span></span></div>
+      <div class="col-xs-4" style="height:50px;"><span></span></div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+	<div class="row">
+      <div class="col-xs-4" style="height:50px;"><span></span></div>
+      <div class="col-xs-4" style="height:50px;"><span></span></div>
+      <div class="col-xs-4" style="height:50px;"><span></span></div>
+    </div>
+  </div>
+  
+   <div class="container-fluid">
+	<div class="row">
+      <div class="col-xs-4" style="height:50px;"><span></span></div>
+      <div class="col-xs-4" style="height:50px;"><span></span></div>
+      <div class="col-xs-4" style="height:50px;"><span></span></div>
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom:-6px !important;">
+    <div class="col-xs-12" style="height:28px;"><span class="footer"></span></div>
+  </div>
+</div>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<!-- IE10 viewport bug workaround -->
+	<script src="js/ie10-viewport-bug-workaround.js"></script>
+	
+	<!-- Placeholder Images -->
+	<script src="js/holder.min.js"></script>
+</body>
+</html>

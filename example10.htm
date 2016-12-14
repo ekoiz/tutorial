@@ -1,0 +1,69 @@
+
+<html>
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+ <link href="css/bootstrap.css" rel="stylesheet">
+ <style type="text/css">
+.row {
+    margin-bottom:6px;
+}
+.col-xs-12, .col-xs-3,  .col-xs-2,.col-xs-4, .col-xs-6 {
+    background-color:#f1f1f1;
+    text-align:center;
+    padding-top:3px;
+}
+    .container-fluid:hover .col-xs-3 span.sidenav:after {
+    content:'3 col';
+}
+    .container-fluid:hover .col-xs-12 span.header:after {
+    content:'9 col - 12 col';
+}
+    .container-fluid:hover .col-xs-3 span:after {
+    content:'9 - 3 col';
+}
+    .container-fluid:hover .col-xs-4 span:after {
+    content:'9 - 4 col';
+}
+    .container-fluid:hover .col-xs-6 span:after {
+    content:'9 - 6 col';
+}
+  </style>
+</head>
+<body>
+
+<h2>example 10</h2>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-3" style="height:231px;border-right:6px solid white;">
+	<span class="sidenav"></span></div>
+    <div class="col-xs-9">
+    
+      <div class="row">
+        <div class="col-xs-12" style="height:57px;"><span class="header"></span></div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-3" style="height:50px;border-right:6px solid white;"><span></span></div>
+        <div class="col-xs-3" style="height:50px;border-right:6px solid white;"><span></span></div>
+        <div class="col-xs-3" style="height:50px;border-right:6px solid white;"><span></span></div>
+        <div class="col-xs-3" style="height:50px;"><span></span></div>
+      </div>
+ 
+      <div class="row">
+        <div class="col-xs-4" style="height:71px;border-right:6px solid white;"><span></span></div>
+        <div class="col-xs-4" style="height:71px;border-right:6px solid white;"><span></span></div>
+        <div class="col-xs-4" style="height:71px;"><span></span></div>
+      </div>
+
+  <div class="row" style="margin-bottom:-6px !important;">
+        <div class="col-xs-6" style="height:35px;border-right:6px solid white;"><span></span></div>
+        <div class="col-xs-6" style="height:35px;"><span></span></div>
+      </div>
+   
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
